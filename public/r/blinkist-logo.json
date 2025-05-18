@@ -1,0 +1,16 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "blinkist-logo",
+  "type": "registry:component",
+  "title": "Blinkist Logo",
+  "description": "A component for the Blinkist logo image.",
+  "dependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "components/ui/blinkist-logo.tsx",
+      "content": "import Image from \"next/image\";\n\nexport function BlinkistLogo() {\n  return (\n    <Image\n      src=\"https://cdn.brandfetch.io/blinkist.com/w/512/h/99/logo?c=1idyyS2Jmw4KgfR-C00\"\n      alt=\"Blinkist Logo\"\n      width={100}\n      height={35}\n      className=\"h-6 w-auto\"\n    />\n  );\n} ",
+      "type": "registry:component"
+    }
+  ]
+}
