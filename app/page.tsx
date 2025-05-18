@@ -15,12 +15,20 @@ export default function Home() {
             height={35}
             className="h-6 w-auto"
           />
-          <Link
-            href="/dashboard"
-            className="px-4 py-2 bg-blue-500 text-white rounded-md font-medium hover:bg-blue-600 transition-colors"
-          >
-            Go to Dashboard
-          </Link>
+          <div className="flex items-center gap-4">
+            <Link
+              href="/starter-kit"
+              className="px-4 py-2 text-blue-500 font-medium hover:text-blue-600 transition-colors"
+            >
+              Starter Kit
+            </Link>
+            <Link
+              href="/dashboard"
+              className="px-4 py-2 bg-blue-500 text-white rounded-md font-medium hover:bg-blue-600 transition-colors"
+            >
+              Go to Dashboard
+            </Link>
+          </div>
         </div>
       </header>
 
