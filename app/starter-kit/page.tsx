@@ -123,7 +123,7 @@ export default function StarterKitPage() {
               )}
             </div>
 
-            <div className="max-w-xl mx-auto border border-gray-200 rounded-lg overflow-hidden shadow-sm bg-white">
+            <div className="max-w-xl mx-auto border border-gray-200 rounded-lg overflow-hidden shadow-sm bg-white p-6">
               <SkepticalBanner />
               <div className="px-6 pb-6">
                 <PricingCard />
