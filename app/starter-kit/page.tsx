@@ -98,43 +98,6 @@ export default function StarterKitPage() {
             <div className="flex items-start justify-between mb-6 p-2">
               <span className="flex flex-col">
                 <h3 className="text-xl font-medium text-midnight">
-                  Pricing Card
-                </h3>
-                <p className="text-gray-700">A beautiful Blinkist-styled pricing card component.</p>
-              </span>
-
-              {baseUrl && (
-                <a 
-                  href={createV0Link(
-                    "Blinkist Pricing Card", 
-                    "A pricing card component with Blinkist styling.", 
-                    "pricing-card"
-                  )} 
-                  className="flex-shrink-0"
-                  target="_blank"
-                >
-                  <img
-                    src="https://v0.dev/chat-static/button.svg"
-                    alt="Open in v0"
-                    width="99"
-                    height="32"
-                  />
-                </a>
-              )}
-            </div>
-
-            <div className="max-w-xl mx-auto border border-gray-200 rounded-lg overflow-hidden shadow-sm bg-white p-6">
-              <SkepticalBanner />
-              <div className="px-6 pb-6">
-                <PricingCard />
-              </div>
-            </div>
-          </section>
-
-          <section className="bg-white rounded-lg p-6 border border-gray-200 shadow-sm">
-            <div className="flex items-start justify-between mb-6 p-2">
-              <span className="flex flex-col">
-                <h3 className="text-xl font-medium text-midnight">
                   Dashboard
                 </h3>
                 <p className="text-gray-700">A complete dashboard layout with sidebar and header.</p>
@@ -166,40 +129,6 @@ export default function StarterKitPage() {
                 className="w-full h-full"
                 title="Dashboard"
               />
-            </div>
-          </section>
-
-          <section className="bg-white rounded-lg p-6 pb-10 border border-gray-200 shadow-sm">
-            <div className="flex items-start justify-between mb-6 p-2">
-              <span className="flex flex-col">
-                <h3 className="text-xl font-medium text-midnight">
-                  Get Started Button
-                </h3>
-                <p className="text-gray-700">A button component for starting the Blinkist experience.</p>
-              </span>
-
-              {baseUrl && (
-                <a 
-                  href={createV0Link(
-                    "Get Started Button", 
-                    "A button component for starting the Blinkist experience.", 
-                    "get-started-button"
-                  )} 
-                  className="flex-shrink-0"
-                  target="_blank"
-                >
-                  <img
-                    src="https://v0.dev/chat-static/button.svg"
-                    alt="Open in v0"
-                    width="99"
-                    height="32"
-                  />
-                </a>
-              )}
-            </div>
-
-            <div className="max-w-xl mx-auto border border-gray-200 rounded-lg overflow-hidden shadow-sm bg-white">
-              <GetStartedButton />
             </div>
           </section>
         </div>
