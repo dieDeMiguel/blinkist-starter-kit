@@ -22,12 +22,12 @@ export default function Home() {
             >
               Starter Kit
             </Link>
-            <Link
-              href="/dashboard"
-              className="px-4 py-2 bg-blue-500 text-white rounded-md font-medium hover:bg-blue-600 transition-colors"
-            >
-              Go to Dashboard
-            </Link>
+          <Link
+            href="/dashboard"
+            className="px-4 py-2 bg-blue-500 text-white rounded-md font-medium hover:bg-blue-600 transition-colors"
+          >
+            Go to Dashboard
+          </Link>
           </div>
         </div>
       </header>

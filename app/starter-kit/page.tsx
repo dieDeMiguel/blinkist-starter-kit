@@ -17,6 +17,15 @@ export default function StarterKitPage() {
     setBaseUrl(url);
   }, []);
 
+  // Function to create properly encoded v0 URLs
+  const createV0Link = (title: string, prompt: string, registryItem: string) => {
+    const encodedUrl = encodeURIComponent(`${baseUrl}§${registryItem}.json`);
+    const encodedPrompt = encodeURIComponent(prompt);
+    const encodedTitle = encodeURIComponent(title);
+    
+    return `https://v0.dev/chat/api/open?title=${encodedTitle}&prompt=${encodedPrompt}&url=${encodedUrl}`;
+  };
+
   return (
     <div className="min-h-screen bg-white">
       <header className="border-b border-gray-200">
@@ -48,7 +57,7 @@ export default function StarterKitPage() {
       </header>
 
       <div className="container mx-auto py-12 px-4">
-        <div className="max-w-4xl mx-auto space-y-12">
+        <div className="max-w-5xl mx-auto space-y-12">
           <div className="text-center mb-12">
             <h1 className="text-3xl md:text-4xl font-bold text-midnight mb-4">Blinkist UI Component Library</h1>
             <p className="text-lg text-gray-700 max-w-2xl mx-auto">A collection of reusable UI components and templates for building Blinkist-like applications.</p>
@@ -64,7 +73,14 @@ export default function StarterKitPage() {
               </span>
 
               {baseUrl && (
-                <a href={`https://v0.dev/chat/api/open?title=Blinkist+Starter+Kit&prompt=Blinkist+UI+components+and+templates+for+building+Blinkist-like+interfaces.&url=${baseUrl}/r/theme.json`} className="flex-shrink-0">
+                <a 
+                  href={createV0Link(
+                    "Blinkist Starter Kit", 
+                    "Blinkist UI components and templates for building Blinkist-like interfaces.", 
+                    "theme"
+                  )} 
+                  className="flex-shrink-0"
+                >
                   <img
                     src="https://v0.dev/chat-static/button.svg"
                     alt="Open in v0"
@@ -86,7 +102,14 @@ export default function StarterKitPage() {
               </span>
 
               {baseUrl && (
-                <a href={`https://v0.dev/chat/api/open?title=Blinkist+Pricing+Card&prompt=A+pricing+card+component+with+Blinkist+styling.&url=${baseUrl}/r/pricing-card.json`} className="flex-shrink-0">
+                <a 
+                  href={createV0Link(
+                    "Blinkist Pricing Card", 
+                    "A pricing card component with Blinkist styling.", 
+                    "pricing-card"
+                  )} 
+                  className="flex-shrink-0"
+                >
                   <img
                     src="https://v0.dev/chat-static/button.svg"
                     alt="Open in v0"
@@ -97,7 +120,7 @@ export default function StarterKitPage() {
               )}
             </div>
 
-            <div className="max-w-md mx-auto border border-gray-200 rounded-lg overflow-hidden shadow-sm bg-white">
+            <div className="max-w-xl mx-auto border border-gray-200 rounded-lg overflow-hidden shadow-sm bg-white">
               <SkepticalBanner />
               <div className="px-6 pb-6">
                 <PricingCard />
@@ -115,7 +138,14 @@ export default function StarterKitPage() {
               </span>
 
               {baseUrl && (
-                <a href={`https://v0.dev/chat/api/open?title=Blinkist+Dashboard&prompt=A+dashboard+with+Blinkist+styling+and+components.&url=${baseUrl}/r/dashboard.json`} className="flex-shrink-0">
+                <a 
+                  href={createV0Link(
+                    "Blinkist Dashboard", 
+                    "A dashboard with Blinkist styling and components.", 
+                    "dashboard"
+                  )} 
+                  className="flex-shrink-0"
+                >
                   <img
                     src="https://v0.dev/chat-static/button.svg"
                     alt="Open in v0"
