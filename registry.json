@@ -304,6 +304,19 @@
 					"type": "registry:component"
 				}
 			]
+		},
+		{
+			"name": "blinkist-logo",
+			"type": "registry:component",
+			"title": "Blinkist Logo",
+			"description": "A component for the Blinkist logo image.",
+			"registryDependencies": [],
+			"files": [
+				{
+					"path": "components/ui/blinkist-logo.tsx",
+					"type": "registry:component"
+				}
+			]
 		}
 	]
 } 

@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { GetStartedButton } from "@/components/ui/get-started-button";
+import { BlinkistLogo } from "@/components/ui/blinkist-logo";
 
 export default function StarterKitPage() {
   // Use a state to hold the BASE_URL and set it on the client side
@@ -129,6 +130,40 @@ export default function StarterKitPage() {
                 className="w-full h-full"
                 title="Dashboard"
               />
+            </div>
+          </section>
+
+          <section className="bg-white rounded-lg p-6 pb-10 border border-gray-200 shadow-sm">
+            <div className="flex items-start justify-between mb-6 p-2">
+              <span className="flex flex-col">
+                <h3 className="text-xl font-medium text-midnight">
+                  Blinkist Logo
+                </h3>
+                <p className="text-gray-700">A component for the Blinkist logo image.</p>
+              </span>
+
+              {baseUrl && (
+                <a 
+                  href={createV0Link(
+                    "Blinkist Logo", 
+                    "A component for the Blinkist logo image.", 
+                    "blinkist-logo"
+                  )} 
+                  className="flex-shrink-0"
+                  target="_blank"
+                >
+                  <img
+                    src="https://v0.dev/chat-static/button.svg"
+                    alt="Open in v0"
+                    width="99"
+                    height="32"
+                  />
+                </a>
+              )}
+            </div>
+
+            <div className="max-w-xl mx-auto rounded-lg overflow-hidden flex justify-center items-center bg-white">
+              <BlinkistLogo />
             </div>
           </section>
         </div>
