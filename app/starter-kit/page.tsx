@@ -64,7 +64,7 @@ export default function StarterKitPage() {
               </span>
 
               {baseUrl && (
-                <a href={`https://v0.dev/chat/api/open?title=Blinkist+Starter+Kit&prompt=Blinkist+UI+components+and+templates+for+building+Blinkist-like+interfaces.&url=${baseUrl}/registry/theme.json`} className="flex-shrink-0">
+                <a href={`https://v0.dev/chat/api/open?title=Blinkist+Starter+Kit&prompt=Blinkist+UI+components+and+templates+for+building+Blinkist-like+interfaces.&url=${baseUrl}/r/theme.json`} className="flex-shrink-0">
                   <img
                     src="https://v0.dev/chat-static/button.svg"
                     alt="Open in v0"
@@ -86,7 +86,7 @@ export default function StarterKitPage() {
               </span>
 
               {baseUrl && (
-                <a href={`https://v0.dev/chat/api/open?title=Blinkist+Pricing+Card&prompt=A+pricing+card+component+with+Blinkist+styling.&url=${baseUrl}/registry/pricing-card.json`} className="flex-shrink-0">
+                <a href={`https://v0.dev/chat/api/open?title=Blinkist+Pricing+Card&prompt=A+pricing+card+component+with+Blinkist+styling.&url=${baseUrl}/r/pricing-card.json`} className="flex-shrink-0">
                   <img
                     src="https://v0.dev/chat-static/button.svg"
                     alt="Open in v0"
@@ -115,7 +115,7 @@ export default function StarterKitPage() {
               </span>
 
               {baseUrl && (
-                <a href={`https://v0.dev/chat/api/open?title=Blinkist+Dashboard&prompt=A+dashboard+with+Blinkist+styling+and+components.&url=${baseUrl}/registry/dashboard.json`} className="flex-shrink-0">
+                <a href={`https://v0.dev/chat/api/open?title=Blinkist+Dashboard&prompt=A+dashboard+with+Blinkist+styling+and+components.&url=${baseUrl}/r/dashboard.json`} className="flex-shrink-0">
                   <img
                     src="https://v0.dev/chat-static/button.svg"
                     alt="Open in v0"
