@@ -83,6 +83,10 @@
 				{
 					"path": "components/skeptical-banner.tsx",
 					"type": "registry:component"
+				},
+				{
+					"path": "components/ui/blinkist-logo.tsx",
+					"type": "registry:component"
 				}
 			]
 		},

@@ -14,7 +14,7 @@
   "files": [
     {
       "path": "components/ui/get-started-button.tsx",
-      "content": "import { Button } from \"@/components/ui/button\";\n\nexport function GetStartedButton() {\n  return (\n    <Button className=\"w-full\">Get Started</Button>\n  );\n} ",
+      "content": "import { Button } from \"@/components/ui/button\";\n\nexport function GetStartedButton() {\n  \n  return (\n    <Button className=\"w-full\">Get Started</Button>\n  );\n} ",
       "type": "registry:component"
     },
     {

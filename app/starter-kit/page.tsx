@@ -71,7 +71,7 @@ export default function StarterKitPage() {
                 <h3 className="text-xl font-medium text-midnight">
                   Blinkist Starter Kit
                 </h3>
-                <p className="text-gray-700">A complete Blinkist themed app with pricing card, dashboard, and components.</p>
+                <p className="text-gray-700">A complete Blinkist themed app with pricing card, dashboard, Blinkist logo, and components.</p>
               </span>
 
               {baseUrl && (
@@ -79,7 +79,7 @@ export default function StarterKitPage() {
                   href={createV0Link(
                     "Blinkist Starter Kit", 
                     "Blinkist UI components and templates for building Blinkist-like interfaces.", 
-                    "theme"
+                    "home"
                   )} 
                   className="flex-shrink-0"
                   target="_blank"
