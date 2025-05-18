@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "skeptical-banner",
+  "type": "registry:component",
+  "title": "Skeptical Banner",
+  "description": "Blinkist Skeptical Banner Component",
+  "registryDependencies": [
+    "theme"
+  ],
+  "files": [
+    {
+      "path": "components/skeptical-banner.tsx",
+      "content": "export function SkepticalBanner() {\n  return (\n    <div className=\"text-center space-y-2 mb-8\">\n      <h1 className=\"text-3xl md:text-4xl font-bold text-midnight\">Skeptical? Try Blinkist PRO</h1>\n      <p className=\"text-2xl md:text-3xl font-bold text-blue-500\">free for 7 days.</p>\n    </div>\n  )\n}\n",
+      "type": "registry:component"
+    }
+  ]
+}
