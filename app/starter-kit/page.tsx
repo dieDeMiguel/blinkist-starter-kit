@@ -30,34 +30,6 @@ export default function StarterKitPage() {
 
   return (
     <div className="min-h-screen bg-white">
-      <header className="border-b border-gray-200">
-        <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <Link href="/">
-            <Image
-              src="https://cdn.brandfetch.io/blinkist.com/w/512/h/99/logo?c=1idyyS2Jmw4KgfR-C00"
-              alt="Blinkist Logo"
-              width={100}
-              height={35}
-              className="h-6 w-auto"
-            />
-          </Link>
-          <div className="flex items-center gap-4">
-            <Link
-              href="/"
-              className="px-4 py-2 text-blue-500 font-medium hover:text-blue-600 transition-colors"
-            >
-              Home
-            </Link>
-            <Link
-              href="/dashboard"
-              className="px-4 py-2 bg-blue-500 text-white rounded-md font-medium hover:bg-blue-600 transition-colors"
-            >
-              Dashboard
-            </Link>
-          </div>
-        </div>
-      </header>
-
       <div className="container mx-auto py-12 px-4">
         <div className="max-w-5xl mx-auto space-y-12">
           <div className="text-center mb-12">
