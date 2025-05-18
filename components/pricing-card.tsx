@@ -1,14 +1,14 @@
 import { Check } from "lucide-react"
+import { Card, CardHeader, CardTitle, CardContent, CardFooter } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 
 export function PricingCard() {
   return (
-    <div className="rounded-lg border border-blue-500 overflow-hidden shadow-sm">
-      {/* Header */}
-      <div className="bg-blue-500 text-white py-3 px-4 text-center font-medium">7-DAY FREE TRIAL — €0 TODAY</div>
-
-      {/* Content */}
-      <div className="p-6 space-y-6 bg-white">
-        {/* Plan title and price */}
+    <Card className="overflow-hidden">
+      <CardHeader className="bg-blue-500 text-white text-center font-medium">
+        7-DAY FREE TRIAL — €0 TODAY
+      </CardHeader>
+      <CardContent className="p-6 space-y-6 bg-white">
         <div className="space-y-6">
           <div className="flex justify-between items-start">
             <div className="flex items-center gap-2">
@@ -27,17 +27,10 @@ export function PricingCard() {
               <p className="text-gray-600 mt-1">€139.98</p>
             </div>
           </div>
-
-          {/* CTA Button */}
-          <button className="w-full py-3 px-4 bg-green-500 rounded-md text-center font-medium text-white hover:bg-green-600 transition-colors">
-            Get started
-          </button>
+          <Button className="w-full">Get started</Button>
         </div>
-
-        {/* Features */}
         <div className="space-y-4">
           <p className="font-medium text-midnight">Reach your goals faster</p>
-
           <div className="space-y-4">
             <div className="flex gap-3 items-start">
               <div className="flex-shrink-0 mt-0.5">
@@ -53,24 +46,21 @@ export function PricingCard() {
                 <span className="text-gray-700">Summarize videos, podcasts, docs, articles & more.</span>
               </div>
             </div>
-
             <div className="flex gap-3 items-start">
               <Check className="h-5 w-5 text-gray-700 flex-shrink-0 mt-0.5" />
               <p className="text-gray-700">7,500+ book and podcast summaries.</p>
             </div>
-
             <div className="flex gap-3 items-start">
               <Check className="h-5 w-5 text-gray-700 flex-shrink-0 mt-0.5" />
               <p className="text-gray-700">Read & listen in 15 min.</p>
             </div>
-
             <div className="flex gap-3 items-start">
               <Check className="h-5 w-5 text-gray-700 flex-shrink-0 mt-0.5" />
               <p className="text-gray-700">Personal daily recommendations.</p>
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </CardContent>
+    </Card>
   )
 }
