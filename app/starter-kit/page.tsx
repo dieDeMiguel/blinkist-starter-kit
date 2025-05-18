@@ -19,7 +19,7 @@ export default function StarterKitPage() {
 
   // Function to create properly encoded v0 URLs
   const createV0Link = (title: string, prompt: string, registryItem: string) => {
-    const encodedUrl = encodeURIComponent(`${baseUrl}§${registryItem}.json`);
+    const encodedUrl = encodeURIComponent(`${baseUrl}/r/${registryItem}.json`);
     const encodedPrompt = encodeURIComponent(prompt);
     const encodedTitle = encodeURIComponent(title);
     
