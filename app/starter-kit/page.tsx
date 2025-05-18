@@ -131,7 +131,7 @@ export default function StarterKitPage() {
               )}
             </div>
 
-            <div className="h-[600px] w-full rounded-md border border-gray-200 overflow-hidden shadow-sm">
+            <div className="h-[900px] w-full rounded-md border border-gray-200 overflow-hidden shadow-sm">
               <iframe
                 src="/dashboard"
                 className="w-full h-full"
