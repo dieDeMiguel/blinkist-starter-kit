@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "get-started-button",
+  "type": "registry:component",
+  "title": "Get Started Button",
+  "description": "A button component for starting the Blinkist experience.",
+  "dependencies": [],
+  "registryDependencies": [
+    "theme"
+  ],
+  "files": [
+    {
+      "path": "components/ui/get-started-button.tsx",
+      "content": "import React from 'react';\n\nexport function GetStartedButton() {\n  return (\n    <button className=\"w-full py-3 px-4 bg-green-500 rounded-md text-center font-medium text-white hover:bg-green-600 transition-colors\">\n      Get Started\n    </button>\n  );\n} ",
+      "type": "registry:component"
+    }
+  ]
+}

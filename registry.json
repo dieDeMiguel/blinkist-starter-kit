@@ -289,6 +289,21 @@
 					"type": "registry:component"
 				}
 			]
+		},
+		{
+			"name": "get-started-button",
+			"type": "registry:component",
+			"title": "Get Started Button",
+			"description": "A button component for starting the Blinkist experience.",
+			"registryDependencies": [
+				"theme"
+			],
+			"files": [
+				{
+					"path": "components/ui/get-started-button.tsx",
+					"type": "registry:component"
+				}
+			]
 		}
 	]
 } 
