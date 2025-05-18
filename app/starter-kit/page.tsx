@@ -80,6 +80,7 @@ export default function StarterKitPage() {
                     "theme"
                   )} 
                   className="flex-shrink-0"
+                  target="_blank"
                 >
                   <img
                     src="https://v0.dev/chat-static/button.svg"
@@ -109,6 +110,7 @@ export default function StarterKitPage() {
                     "pricing-card"
                   )} 
                   className="flex-shrink-0"
+                  target="_blank"
                 >
                   <img
                     src="https://v0.dev/chat-static/button.svg"
@@ -145,6 +147,7 @@ export default function StarterKitPage() {
                     "dashboard"
                   )} 
                   className="flex-shrink-0"
+                  target="_blank"
                 >
                   <img
                     src="https://v0.dev/chat-static/button.svg"
