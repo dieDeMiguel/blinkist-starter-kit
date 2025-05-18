@@ -4,6 +4,7 @@
   "type": "registry:ui",
   "title": "Input",
   "description": "Blinkist Input",
+  "dependencies": [],
   "registryDependencies": [
     "theme"
   ],

@@ -4,6 +4,9 @@
   "type": "registry:component",
   "title": "Dashboard Header",
   "description": "Blinkist Dashboard Header",
+  "dependencies": [
+    "lucide-react"
+  ],
   "registryDependencies": [
     "theme",
     "input"

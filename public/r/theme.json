@@ -4,6 +4,9 @@
   "type": "registry:theme",
   "title": "Blinkist Theme",
   "description": "A base theme with Blinkist design system colors and font installed",
+  "dependencies": [
+    "tailwindcss"
+  ],
   "files": [
     {
       "path": "tailwind.config.ts",

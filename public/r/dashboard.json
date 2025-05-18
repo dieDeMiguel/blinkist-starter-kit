@@ -4,6 +4,9 @@
   "type": "registry:block",
   "title": "Dashboard",
   "description": "Blinkist Dashboard Page with Header and Sidebar",
+  "dependencies": [
+    "lucide-react"
+  ],
   "files": [
     {
       "path": "app/dashboard/page.tsx",

@@ -4,6 +4,9 @@
   "type": "registry:ui",
   "title": "Separator",
   "description": "Blinkist Separator Component",
+  "dependencies": [
+    "@radix-ui/react-separator"
+  ],
   "registryDependencies": [
     "theme"
   ],

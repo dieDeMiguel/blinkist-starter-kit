@@ -4,6 +4,9 @@
   "type": "registry:component",
   "title": "Pricing Card",
   "description": "Blinkist Pricing Card Component",
+  "dependencies": [
+    "lucide-react"
+  ],
   "registryDependencies": [
     "theme"
   ],

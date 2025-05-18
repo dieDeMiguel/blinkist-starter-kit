@@ -4,6 +4,10 @@
   "type": "registry:ui",
   "title": "Button",
   "description": "Blinkist Button",
+  "dependencies": [
+    "@radix-ui/react-slot",
+    "class-variance-authority"
+  ],
   "registryDependencies": [
     "theme"
   ],

@@ -4,6 +4,7 @@
   "type": "registry:ui",
   "title": "Skeleton",
   "description": "Blinkist Skeleton Component",
+  "dependencies": [],
   "registryDependencies": [
     "theme"
   ],

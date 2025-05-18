@@ -4,6 +4,9 @@
   "type": "registry:component",
   "title": "Dashboard Search",
   "description": "Blinkist Dashboard Search Component",
+  "dependencies": [
+    "lucide-react"
+  ],
   "registryDependencies": [
     "theme",
     "input"

@@ -4,6 +4,7 @@
   "type": "registry:ui",
   "title": "Card",
   "description": "Blinkist Card",
+  "dependencies": [],
   "registryDependencies": [
     "theme"
   ],

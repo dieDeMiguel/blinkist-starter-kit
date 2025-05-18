@@ -7,7 +7,7 @@
     "build": "next build && shadcn build",
     "start": "next start",
     "lint": "next lint",
-    "registry:build": "shadcn build"
+    "registry:build": "shadcn registry:build"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",

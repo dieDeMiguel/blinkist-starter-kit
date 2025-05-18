@@ -4,6 +4,9 @@
   "type": "registry:ui",
   "title": "Tooltip",
   "description": "Blinkist Tooltip Component",
+  "dependencies": [
+    "@radix-ui/react-tooltip"
+  ],
   "registryDependencies": [
     "theme"
   ],
