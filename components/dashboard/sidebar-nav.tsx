@@ -74,12 +74,13 @@ interface NavItemProps {
 
 function NavItem({ href, icon, label, active, badge }: NavItemProps) {
   return (
-    <li className="relative">
+    <li className="relative group">
       {active && <div className="absolute left-0 top-0 w-1 h-full bg-blue-500" />}
+      <div className="absolute left-0 top-0 w-1 h-full bg-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-150 ease-in-out" />
       <Link
         href={href}
         className={`flex items-center gap-4 px-6 py-3 ${
-          active ? "text-blue-500 font-medium" : "text-[#0E2B3D] hover:bg-gray-50"
+          active ? "text-blue-500 font-medium" : "text-[#0E2B3D] hover:bg-gray-50 hover:text-blue-500"
         }`}
       >
         {icon}

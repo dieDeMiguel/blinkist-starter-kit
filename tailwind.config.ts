@@ -79,7 +79,7 @@ const config: Config = {
         sm: "calc(var(--radius) - 4px)",
       },
       fontFamily: {
-        sans: ["CeraPRO", ...fontFamily.sans],
+        sans: ["CeraPRO", "var(--font-inter)", ...fontFamily.sans],
       },
     },
   },
