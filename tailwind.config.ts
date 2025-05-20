@@ -11,6 +11,10 @@ const config: Config = {
     "*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      sans: ["CeraPRO", ...fontFamily.sans],
+      serif: ["CeraPRO", ...fontFamily.serif],
+    },
     container: {
       center: true,
       padding: "2rem",
@@ -77,9 +81,6 @@ const config: Config = {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
-      },
-      fontFamily: {
-        sans: ["CeraPRO", ...fontFamily.sans],
       },
     },
   },

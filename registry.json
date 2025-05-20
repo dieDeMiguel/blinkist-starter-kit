@@ -1,326 +1,357 @@
 {
-	"$schema": "https://ui.shadcn.com/schema/registry.json",
-	"name": "Blinkist Design System",
-	"homepage": "https://blinkist.com",
-	"items": [
-		{
-			"name": "theme",
-			"type": "registry:theme",
-			"title": "Blinkist Theme",
-			"description": "A base theme with Blinkist design system colors and font installed",
-			"files": [
-				{
-					"path": "tailwind.config.ts",
-					"type": "registry:file",
-					"target": "tailwind.config.ts"
-				},
-				{
-					"path": "app/globals.css",
-					"type": "registry:file",
-					"target": "app/globals.css"
-				},
-				{
-					"path": "app/layout.tsx",
-					"type": "registry:file",
-					"target": "app/layout.tsx"
-				},
-				{
-					"path": "lib/utils.ts",
-					"type": "registry:file",
-					"target": "lib/utils.ts"
-				},
-				{
-					"path": "hooks/use-mobile.tsx",
-					"type": "registry:file",
-					"target": "hooks/use-mobile.tsx"
-				}
-			]
-		},
-		{
-			"name": "dashboard",
-			"type": "registry:block",
-			"title": "Dashboard",
-			"description": "Blinkist Dashboard Page with Header and Sidebar",
-			"files": [
-				{
-					"path": "app/dashboard/page.tsx",
-					"type": "registry:page",
-					"target": "app/dashboard/page.tsx"
-				},
-				{
-					"path": "components/dashboard/header.tsx",
-					"type": "registry:component"
-				},
-				{
-					"path": "components/dashboard/sidebar.tsx",
-					"type": "registry:component"
-				},
-				{
-					"path": "components/dashboard/sidebar-nav.tsx",
-					"type": "registry:component"
-				},
-				{
-					"path": "components/dashboard/search.tsx",
-					"type": "registry:component"
-				}
-			]
-		},
-		{
-			"name": "home",
-			"type": "registry:block",
-			"title": "Home Page",
-			"description": "Blinkist Home Page with Pricing Card and Skeptical Banner",
-			"files": [
-				{
-					"path": "app/page.tsx",
-					"type": "registry:page",
-					"target": "app/page.tsx"
-				},
-				{
-					"path": "components/pricing-card.tsx",
-					"type": "registry:component"
-				},
-				{
-					"path": "components/skeptical-banner.tsx",
-					"type": "registry:component"
-				},
-				{
-					"path": "components/ui/blinkist-logo.tsx",
-					"type": "registry:component"
-				}
-			]
-		},
-		{
-			"name": "button",
-			"type": "registry:ui",
-			"title": "Button",
-			"description": "Blinkist Button",
-			"registryDependencies": [
-				"theme"
-			],
-			"files": [
-				{
-					"path": "components/ui/button.tsx",
-					"type": "registry:component"
-				}
-			]
-		},
-		{
-			"name": "card",
-			"type": "registry:ui",
-			"title": "Card",
-			"description": "Blinkist Card",
-			"registryDependencies": [
-				"theme"
-			],
-			"files": [
-				{
-					"path": "components/ui/card.tsx",
-					"type": "registry:component"
-				}
-			]
-		},
-		{
-			"name": "input",
-			"type": "registry:ui",
-			"title": "Input",
-			"description": "Blinkist Input",
-			"registryDependencies": [
-				"theme"
-			],
-			"files": [
-				{
-					"path": "components/ui/input.tsx",
-					"type": "registry:component"
-				}
-			]
-		},
-		{
-			"name": "sidebar",
-			"type": "registry:ui",
-			"title": "Sidebar",
-			"description": "Blinkist Sidebar Component",
-			"registryDependencies": [
-				"theme",
-				"button",
-				"input",
-				"separator",
-				"skeleton",
-				"tooltip"
-			],
-			"files": [
-				{
-					"path": "components/ui/sidebar.tsx",
-					"type": "registry:component"
-				}
-			]
-		},
-		{
-			"name": "dashboard-header",
-			"type": "registry:component",
-			"title": "Dashboard Header",
-			"description": "Blinkist Dashboard Header",
-			"registryDependencies": [
-				"theme",
-				"input"
-			],
-			"files": [
-				{
-					"path": "components/dashboard/header.tsx",
-					"type": "registry:component"
-				}
-			]
-		},
-		{
-			"name": "dashboard-search",
-			"type": "registry:component",
-			"title": "Dashboard Search",
-			"description": "Blinkist Dashboard Search Component",
-			"registryDependencies": [
-				"theme",
-				"input"
-			],
-			"files": [
-				{
-					"path": "components/dashboard/search.tsx",
-					"type": "registry:component"
-				}
-			]
-		},
-		{
-			"name": "pricing-card",
-			"type": "registry:component",
-			"title": "Pricing Card",
-			"description": "Blinkist Pricing Card Component",
-			"registryDependencies": [
-				"theme"
-			],
-			"files": [
-				{
-					"path": "components/pricing-card.tsx",
-					"type": "registry:component"
-				}
-			]
-		},
-		{
-			"name": "font-card",
-			"type": "registry:component",
-			"title": "Font Card",
-			"description": "Blinkist Font Card Component",
-			"registryDependencies": [
-				"theme",
-				"card",
-				"badge"
-			],
-			"files": [
-				{
-					"path": "components/font-card.tsx",
-					"type": "registry:component"
-				}
-			]
-		},
-		{
-			"name": "skeptical-banner",
-			"type": "registry:component",
-			"title": "Skeptical Banner",
-			"description": "Blinkist Skeptical Banner Component",
-			"registryDependencies": [
-				"theme"
-			],
-			"files": [
-				{
-					"path": "components/skeptical-banner.tsx",
-					"type": "registry:component"
-				}
-			]
-		},
-		{
-			"name": "badge",
-			"type": "registry:ui",
-			"title": "Badge",
-			"description": "Blinkist Badge Component",
-			"registryDependencies": [
-				"theme"
-			],
-			"files": [
-				{
-					"path": "components/ui/badge.tsx",
-					"type": "registry:component"
-				}
-			]
-		},
-		{
-			"name": "separator",
-			"type": "registry:ui",
-			"title": "Separator",
-			"description": "Blinkist Separator Component",
-			"registryDependencies": [
-				"theme"
-			],
-			"files": [
-				{
-					"path": "components/ui/separator.tsx",
-					"type": "registry:component"
-				}
-			]
-		},
-		{
-			"name": "skeleton",
-			"type": "registry:ui",
-			"title": "Skeleton",
-			"description": "Blinkist Skeleton Component",
-			"registryDependencies": [
-				"theme"
-			],
-			"files": [
-				{
-					"path": "components/ui/skeleton.tsx",
-					"type": "registry:component"
-				}
-			]
-		},
-		{
-			"name": "tooltip",
-			"type": "registry:ui",
-			"title": "Tooltip",
-			"description": "Blinkist Tooltip Component",
-			"registryDependencies": [
-				"theme"
-			],
-			"files": [
-				{
-					"path": "components/ui/tooltip.tsx",
-					"type": "registry:component"
-				}
-			]
-		},
-		{
-			"name": "get-started-button",
-			"type": "registry:component",
-			"title": "Get Started Button",
-			"description": "A button component for starting the Blinkist experience.",
-			"registryDependencies": [
-				"theme"
-			],
-			"files": [
-				{
-					"path": "components/ui/get-started-button.tsx",
-					"type": "registry:component"
-				}
-			]
-		},
-		{
-			"name": "blinkist-logo",
-			"type": "registry:component",
-			"title": "Blinkist Logo",
-			"description": "A component for the Blinkist logo image.",
-			"registryDependencies": [],
-			"files": [
-				{
-					"path": "components/ui/blinkist-logo.tsx",
-					"type": "registry:component"
-				}
-			]
-		}
-	]
-} 
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "Blinkist Design System",
+  "homepage": "https://blinkist.com",
+  "items": [
+    {
+      "name": "cerapro-font",
+      "type": "registry:style",
+      "title": "CeraPro Font",
+      "description": "CeraPro font configuration for Blinkist",
+      "cssVars": {
+        "theme": {
+          "font-sans": "CeraPRO, sans-serif",
+          "font-serif": "CeraPRO, serif"
+        },
+        "light": {
+          "font-family": "CeraPRO, sans-serif"
+        },
+        "dark": {
+          "font-family": "CeraPRO, sans-serif"
+        }
+      },
+      "css": {
+        "@font-face": [
+          {
+            "font-display": "swap",
+            "font-family": "\"CeraPRO\"",
+            "font-weight": "700",
+            "src": "url(\"https://static-cdn.blinkist.com/webfonts/323ED8_0_0.woff2\") format(\"woff2\"), url(\"https://static-cdn.blinkist.com/webfonts/323ED8_0_0.woff\") format(\"woff\")"
+          },
+          {
+            "font-display": "swap",
+            "font-family": "\"CeraPRO\"",
+            "font-weight": "500",
+            "src": "url(\"https://static-cdn.blinkist.com/webfonts/323ED8_1_0.woff2\") format(\"woff2\"), url(\"https://static-cdn.blinkist.com/webfonts/323ED8_1_0.woff\") format(\"woff\")"
+          },
+          {
+            "font-display": "swap",
+            "font-family": "\"CeraPRO\"",
+            "font-style": "italic",
+            "font-weight": "400",
+            "src": "url(\"https://static-cdn.blinkist.com/webfonts/323ED8_2_0.woff2\") format(\"woff2\"), url(\"https://static-cdn.blinkist.com/webfonts/323ED8_2_0.woff\") format(\"woff\")"
+          },
+          {
+            "font-display": "swap",
+            "font-family": "\"CeraPRO\"",
+            "font-weight": "400",
+            "src": "url(\"https://static-cdn.blinkist.com/webfonts/323ED8_3_0.woff2\") format(\"woff2\"), url(\"https://static-cdn.blinkist.com/webfonts/323ED8_3_0.woff\") format(\"woff\")"
+          }
+        ],
+        "body": {
+          "font-family": "\"CeraPRO\", sans-serif",
+          "-webkit-font-smoothing": "antialiased"
+        }
+      },
+      "files": [
+        {
+          "path": "app/globals.css",
+          "type": "registry:file",
+          "target": "app/globals.css"
+        }
+      ]
+    },
+    {
+      "name": "theme",
+      "type": "registry:theme",
+      "title": "Blinkist Theme",
+      "description": "A base theme with Blinkist design system colors and font installed",
+      "registryDependencies": ["cerapro-font"],
+      "files": [
+        {
+          "path": "tailwind.config.ts",
+          "type": "registry:file",
+          "target": "tailwind.config.ts"
+        },
+        {
+          "path": "app/globals.css",
+          "type": "registry:file",
+          "target": "app/globals.css"
+        },
+        {
+          "path": "app/layout.tsx",
+          "type": "registry:file",
+          "target": "app/layout.tsx"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "registry:file",
+          "target": "lib/utils.ts"
+        },
+        {
+          "path": "hooks/use-mobile.tsx",
+          "type": "registry:file",
+          "target": "hooks/use-mobile.tsx"
+        }
+      ]
+    },
+    {
+      "name": "dashboard",
+      "type": "registry:block",
+      "title": "Dashboard",
+      "description": "Blinkist Dashboard Page with Header and Sidebar",
+      "registryDependencies": ["theme"],
+      "files": [
+        {
+          "path": "app/dashboard/page.tsx",
+          "type": "registry:page",
+          "target": "app/dashboard/page.tsx"
+        },
+        {
+          "path": "components/dashboard/header.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/dashboard/sidebar.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/dashboard/sidebar-nav.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/dashboard/search.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "home",
+      "type": "registry:block",
+      "title": "Home Page",
+      "description": "Blinkist Home Page with Pricing Card and Skeptical Banner",
+      "registryDependencies": ["theme"],
+      "files": [
+        {
+          "path": "app/page.tsx",
+          "type": "registry:page",
+          "target": "app/page.tsx"
+        },
+        {
+          "path": "components/pricing-card.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/skeptical-banner.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/ui/blinkist-logo.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "button",
+      "type": "registry:ui",
+      "title": "Button",
+      "description": "Blinkist Button",
+      "registryDependencies": ["theme"],
+      "files": [
+        {
+          "path": "components/ui/button.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "card",
+      "type": "registry:ui",
+      "title": "Card",
+      "description": "Blinkist Card",
+      "registryDependencies": ["theme"],
+      "files": [
+        {
+          "path": "components/ui/card.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "input",
+      "type": "registry:ui",
+      "title": "Input",
+      "description": "Blinkist Input",
+      "registryDependencies": ["theme"],
+      "files": [
+        {
+          "path": "components/ui/input.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "sidebar",
+      "type": "registry:ui",
+      "title": "Sidebar",
+      "description": "Blinkist Sidebar Component",
+      "registryDependencies": [
+        "theme",
+        "button",
+        "input",
+        "separator",
+        "skeleton",
+        "tooltip"
+      ],
+      "files": [
+        {
+          "path": "components/ui/sidebar.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "dashboard-header",
+      "type": "registry:component",
+      "title": "Dashboard Header",
+      "description": "Blinkist Dashboard Header",
+      "registryDependencies": ["theme", "input"],
+      "files": [
+        {
+          "path": "components/dashboard/header.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "dashboard-search",
+      "type": "registry:component",
+      "title": "Dashboard Search",
+      "description": "Blinkist Dashboard Search Component",
+      "registryDependencies": ["theme", "input"],
+      "files": [
+        {
+          "path": "components/dashboard/search.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "pricing-card",
+      "type": "registry:component",
+      "title": "Pricing Card",
+      "description": "Blinkist Pricing Card Component",
+      "registryDependencies": ["theme"],
+      "files": [
+        {
+          "path": "components/pricing-card.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "font-card",
+      "type": "registry:component",
+      "title": "Font Card",
+      "description": "Blinkist Font Card Component",
+      "registryDependencies": ["theme", "card", "badge"],
+      "files": [
+        {
+          "path": "components/font-card.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "skeptical-banner",
+      "type": "registry:component",
+      "title": "Skeptical Banner",
+      "description": "Blinkist Skeptical Banner Component",
+      "registryDependencies": ["theme"],
+      "files": [
+        {
+          "path": "components/skeptical-banner.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "badge",
+      "type": "registry:ui",
+      "title": "Badge",
+      "description": "Blinkist Badge Component",
+      "registryDependencies": ["theme"],
+      "files": [
+        {
+          "path": "components/ui/badge.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "separator",
+      "type": "registry:ui",
+      "title": "Separator",
+      "description": "Blinkist Separator Component",
+      "registryDependencies": ["theme"],
+      "files": [
+        {
+          "path": "components/ui/separator.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "skeleton",
+      "type": "registry:ui",
+      "title": "Skeleton",
+      "description": "Blinkist Skeleton Component",
+      "registryDependencies": ["theme"],
+      "files": [
+        {
+          "path": "components/ui/skeleton.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "tooltip",
+      "type": "registry:ui",
+      "title": "Tooltip",
+      "description": "Blinkist Tooltip Component",
+      "registryDependencies": ["theme"],
+      "files": [
+        {
+          "path": "components/ui/tooltip.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "get-started-button",
+      "type": "registry:component",
+      "title": "Get Started Button",
+      "description": "A button component for starting the Blinkist experience.",
+      "registryDependencies": ["theme"],
+      "files": [
+        {
+          "path": "components/ui/get-started-button.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "blinkist-logo",
+      "type": "registry:component",
+      "title": "Blinkist Logo",
+      "description": "A component for the Blinkist logo image.",
+      "registryDependencies": ["theme"],
+      "files": [
+        {
+          "path": "components/ui/blinkist-logo.tsx",
+          "type": "registry:component"
+        }
+      ]
+    }
+  ]
+}
