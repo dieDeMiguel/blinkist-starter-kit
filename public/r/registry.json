@@ -33,6 +33,26 @@
 					"path": "hooks/use-mobile.tsx",
 					"type": "registry:file",
 					"target": "hooks/use-mobile.tsx"
+				},
+				{
+					"path": "public/fonts/CeraPRO-Regular.woff2",
+					"type": "registry:file",
+					"target": "public/fonts/CeraPRO-Regular.woff2"
+				},
+				{
+					"path": "public/fonts/CeraPRO-Regular.woff",
+					"type": "registry:file",
+					"target": "public/fonts/CeraPRO-Regular.woff"
+				},
+				{
+					"path": "public/fonts/CeraPRO-Bold.woff2",
+					"type": "registry:file",
+					"target": "public/fonts/CeraPRO-Bold.woff2"
+				},
+				{
+					"path": "public/fonts/CeraPRO-Bold.woff",
+					"type": "registry:file",
+					"target": "public/fonts/CeraPRO-Bold.woff"
 				}
 			]
 		},
