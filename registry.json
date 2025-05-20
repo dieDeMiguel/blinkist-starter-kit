@@ -20,39 +20,6 @@
           "font-family": "CeraPRO, sans-serif"
         }
       },
-      "css": {
-        "@font-face": [
-          {
-            "font-display": "swap",
-            "font-family": "\"CeraPRO\"",
-            "font-weight": "700",
-            "src": "url(\"https://static-cdn.blinkist.com/webfonts/323ED8_0_0.woff2\") format(\"woff2\"), url(\"https://static-cdn.blinkist.com/webfonts/323ED8_0_0.woff\") format(\"woff\")"
-          },
-          {
-            "font-display": "swap",
-            "font-family": "\"CeraPRO\"",
-            "font-weight": "500",
-            "src": "url(\"https://static-cdn.blinkist.com/webfonts/323ED8_1_0.woff2\") format(\"woff2\"), url(\"https://static-cdn.blinkist.com/webfonts/323ED8_1_0.woff\") format(\"woff\")"
-          },
-          {
-            "font-display": "swap",
-            "font-family": "\"CeraPRO\"",
-            "font-style": "italic",
-            "font-weight": "400",
-            "src": "url(\"https://static-cdn.blinkist.com/webfonts/323ED8_2_0.woff2\") format(\"woff2\"), url(\"https://static-cdn.blinkist.com/webfonts/323ED8_2_0.woff\") format(\"woff\")"
-          },
-          {
-            "font-display": "swap",
-            "font-family": "\"CeraPRO\"",
-            "font-weight": "400",
-            "src": "url(\"https://static-cdn.blinkist.com/webfonts/323ED8_3_0.woff2\") format(\"woff2\"), url(\"https://static-cdn.blinkist.com/webfonts/323ED8_3_0.woff\") format(\"woff\")"
-          }
-        ],
-        "body": {
-          "font-family": "\"CeraPRO\", sans-serif",
-          "-webkit-font-smoothing": "antialiased"
-        }
-      },
       "files": [
         {
           "path": "app/globals.css",
@@ -130,7 +97,10 @@
       "type": "registry:block",
       "title": "Home Page",
       "description": "Blinkist Home Page with Pricing Card and Skeptical Banner",
-      "registryDependencies": ["theme"],
+      "registryDependencies": [
+        "theme",
+        "cerapro-font"
+      ],
       "files": [
         {
           "path": "app/page.tsx",

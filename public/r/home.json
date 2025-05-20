@@ -9,6 +9,10 @@
     "@radix-ui/react-slot",
     "class-variance-authority"
   ],
+  "registryDependencies": [
+    "theme",
+    "cerapro-font"
+  ],
   "files": [
     {
       "path": "app/page.tsx",

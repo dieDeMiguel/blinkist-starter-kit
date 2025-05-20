@@ -5,7 +5,9 @@
   "title": "Blinkist Logo",
   "description": "A component for the Blinkist logo image.",
   "dependencies": [],
-  "registryDependencies": [],
+  "registryDependencies": [
+    "theme"
+  ],
   "files": [
     {
       "path": "components/ui/blinkist-logo.tsx",
