@@ -82,40 +82,6 @@
   }
 }
 
-/* CeraPRO Font */
-@font-face {
-  font-display: swap;
-  font-family: "CeraPRO";
-  font-weight: 700;
-  src: url("https://static-cdn.blinkist.com/webfonts/323ED8_0_0.woff2") format("woff2"),
-    url("https://static-cdn.blinkist.com/webfonts/323ED8_0_0.woff") format("woff");
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "CeraPRO";
-  font-weight: 500;
-  src: url("https://static-cdn.blinkist.com/webfonts/323ED8_1_0.woff2") format("woff2"),
-    url("https://static-cdn.blinkist.com/webfonts/323ED8_1_0.woff") format("woff");
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "CeraPRO";
-  font-style: italic;
-  font-weight: 400;
-  src: url("https://static-cdn.blinkist.com/webfonts/323ED8_2_0.woff2") format("woff2"),
-    url("https://static-cdn.blinkist.com/webfonts/323ED8_2_0.woff") format("woff");
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "CeraPRO";
-  font-weight: 400;
-  src: url("https://static-cdn.blinkist.com/webfonts/323ED8_3_0.woff2") format("woff2"),
-    url("https://static-cdn.blinkist.com/webfonts/323ED8_3_0.woff") format("woff");
-}
-
 /* Blinkist specific utility classes */
 .text-midnight {
   color: hsl(var(--midnight));

@@ -1,14 +1,7 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Inter } from "next/font/google"
+import { ceraPro, inter } from "@/styles/fonts"
 import "./globals.css"
-
-// Load Inter as a fallback font
-const inter = Inter({ 
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-inter"
-})
 
 export const metadata: Metadata = {
   title: "Blinkist",
@@ -22,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={inter.variable}>
+    <html lang="en" className={`${ceraPro.variable} ${inter.variable}`}>
       <body className="font-sans">{children}</body>
     </html>
   )
