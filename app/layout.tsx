@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${ceraPro.variable} ${inter.variable}`}>
-      <body className="--font-cerapro">{children}</body>
+      <body className="font-sans">{children}</body>
     </html>
   )
 }
