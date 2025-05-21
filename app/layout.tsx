@@ -15,8 +15,8 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${ceraPro.variable} ${inter.variable}`}>
-      <body className="font-sans">{children}</body>
+    <html lang="en">
+      <body className={`${ceraPro.variable} ${inter.variable} font-sans antialiased`}>{children}</body>
     </html>
   )
 }
