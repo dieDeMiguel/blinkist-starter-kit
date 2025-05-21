@@ -321,6 +321,34 @@
 					"type": "registry:component"
 				}
 			]
+		},
+		{
+			"name": "fonts",
+			"type": "registry:style",
+			"title": "Fonts",
+			"description": "CeraPRO and Inter fonts used in the Blinkist design system",
+			"files": [
+				{
+					"path": "app/fonts/CeraPRO-Regular.woff2",
+					"type": "registry:file",
+					"target": "app/fonts/CeraPRO-Regular.woff2"
+				},
+				{
+					"path": "app/fonts/CeraPRO-Italic.woff2",
+					"type": "registry:file",
+					"target": "app/fonts/CeraPRO-Italic.woff2"
+				},
+				{
+					"path": "app/fonts/CeraPRO-Medium.woff2",
+					"type": "registry:file",
+					"target": "app/fonts/CeraPRO-Medium.woff2"
+				},
+				{
+					"path": "app/fonts/CeraPRO-Bold.woff2",
+					"type": "registry:file",
+					"target": "app/fonts/CeraPRO-Bold.woff2"
+				}
+			]
 		}
 	]
 } 
