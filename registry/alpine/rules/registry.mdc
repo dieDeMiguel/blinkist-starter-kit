@@ -1,0 +1,21 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+## Steps to follow in project initialization:
+
+When you initialize a new project:
+
+- Make sure to install the CeraPRO fonts as follows:
+	1. In the root layout, import `ceraPro` from your `styles/fonts.ts`.
+	2. Use the `ceraPro` variable.
+	3. Then add the following to the body tag: `${ceraPro.variable} font-sans antialiased`
+
+- Here's the code example for setting up the fonts:
+	
+	```tsx
+	import { ceraPro } from "@/styles/fonts";
+
+	<body className={`${ceraPro.variable} font-sans antialiased`}>
+	```

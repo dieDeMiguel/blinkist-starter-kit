@@ -12,22 +12,22 @@ export const inter = Inter({
 export const ceraPro = localFont({
   src: [
     {
-      path: '../public/fonts/CeraPRO-Regular.woff2',
+      path: '../app/fonts/CeraPRO-Regular.woff2',
       weight: '400',
       style: 'normal',
     },
     {
-      path: '../public/fonts/CeraPRO-Italic.woff2',
+      path: '../app/fonts/CeraPRO-Italic.woff2',
       weight: '400',
       style: 'italic',
     },
     {
-      path: '../public/fonts/CeraPRO-Medium.woff2',
+      path: '../app/fonts/CeraPRO-Medium.woff2',
       weight: '500',
       style: 'normal',
     },
     {
-      path: '../public/fonts/CeraPRO-Bold.woff2',
+      path: '../app/fonts/CeraPRO-Bold.woff2',
       weight: '700',
       style: 'normal',
     },
