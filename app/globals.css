@@ -34,8 +34,8 @@
     --sidebar-bg: 240 100% 98%;
 
     /* Font variables - these match the Next.js font setup in styles/fonts.ts */
-    --font-sans: '';  /* Will be populated by ceraPro.variable in layout.tsx */
-    --font-inter: ''; /* Will be populated by inter.variable in layout.tsx */
+    --font-sans: '--font-cerapro';  /* Will be populated by ceraPro.variable in layout.tsx */
+    --font-inter: '--font-inter'; /* Will be populated by inter.variable in layout.tsx */
     
     /* Shadow variables */
     --shadow-2xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
