@@ -22,7 +22,7 @@
     },
     {
       "path": "app/layout.tsx",
-      "content": "import type React from \"react\"\nimport type { Metadata } from \"next\"\nimport { ceraPro, inter } from \"@/styles/fonts\"\nimport \"./globals.css\"\n\nexport const metadata: Metadata = {\n  title: \"Blinkist\",\n  description: \"Big ideas in small packages\",\n  generator: 'v0.dev'\n}\n\nexport default function RootLayout({\n  children,\n}: Readonly<{\n  children: React.ReactNode\n}>) {\n  return (\n    <html lang=\"en\" className={`${ceraPro.variable} ${inter.variable}`}>\n      <body className=\"font-sans\">{children}</body>\n    </html>\n  )\n}\n",
+      "content": "import type React from \"react\"\nimport type { Metadata } from \"next\"\nimport { ceraPro, inter } from \"@/styles/fonts\"\nimport \"./globals.css\"\n\nexport const metadata: Metadata = {\n  title: \"Blinkist\",\n  description: \"Big ideas in small packages\",\n  generator: 'v0.dev'\n}\n\nexport default function RootLayout({\n  children,\n}: Readonly<{\n  children: React.ReactNode\n}>) {\n  return (\n    <html lang=\"en\" className={`${ceraPro.variable} ${inter.variable}`}>\n      <body className=\"--font-cerapro\">{children}</body>\n    </html>\n  )\n}\n",
       "type": "registry:file",
       "target": "app/layout.tsx"
     },
