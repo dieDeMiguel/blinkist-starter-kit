@@ -33,8 +33,7 @@
     --search-text: 197 4% 58%;
     --sidebar-bg: 240 100% 98%;
 
-    /* Font variables - these match the Next.js font setup in styles/fonts.ts */
-    --font-sans: '--font-cerapro';  /* Will be populated by ceraPro.variable in layout.tsx */
+    /* Font variables - these match the Next.js font setup in styles/fonts.ts *//* Will be populated by ceraPro.variable in layout.tsx */
     --font-inter: '--font-inter'; /* Will be populated by inter.variable in layout.tsx */
     
     /* Shadow variables */
