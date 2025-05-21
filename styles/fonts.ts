@@ -32,6 +32,6 @@ export const ceraPro = localFont({
       style: 'normal',
     },
   ],
-  variable: '--font-cerapro',
+  variable: '--font-sans',
   display: 'swap',
 }) 
