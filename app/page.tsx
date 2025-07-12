@@ -27,6 +27,9 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <footer className="border-t border-gray-200 py-4 text-center text-gray-500 text-sm">
+        Built with AI Agent 2025
+      </footer>
     </main>
   )
 }
