@@ -1,5 +1,7 @@
 # Blinkist Starter Kit
 
+> Tested in production
+
 A collection of UI components and templates for building Blinkist-like interfaces using shadcn/ui and Next.js.
 
 ## Features
