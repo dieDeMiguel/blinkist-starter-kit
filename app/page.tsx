@@ -27,6 +27,9 @@ export default function Home() {
           </div>
         </div>
       </div>
+          <footer className="w-full text-center py-4 border-t border-gray-200 text-gray-600">
+        Tested manually
+      </footer>
     </main>
   )
 }
